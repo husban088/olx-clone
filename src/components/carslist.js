@@ -1,7 +1,15 @@
+import kia from '../components/images/kiacar.webp'
+import Civic from '../components/images/civic.webp'
+import Insight from '../components/images/insigtcar.webp'
+import vitz from '../components/images/vitz.webp'
+
+
+
+
 export const Productss = [
     {
       id: 5,
-      image: "https://images.olx.com.pk/thumbnails/463152156-240x180.webp",
+      image: kia,
       name: "KIA Sportage FWD 2021",
       price: "7550000",
       category: "cars",
@@ -10,7 +18,7 @@ export const Productss = [
     },
     {
       id: 6,
-      image: "https://images.olx.com.pk/thumbnails/461541001-800x600.webp",
+      image: Civic,
       name: "Honda Civic 1.8 i-vtec Oriel 2017",
       price: "5180000",
       category: "cars",
@@ -19,7 +27,7 @@ export const Productss = [
     },
     {
       id: 7,
-      image: "https://images.olx.com.pk/thumbnails/462704849-800x600.webp",
+      image: Insight,
       name: "Honda Insight 2019",
       price: "13200000",
       category: "cars",
@@ -28,7 +36,7 @@ export const Productss = [
     },
     {
       id: 8,
-      image: "https://images.olx.com.pk/thumbnails/464053394-800x600.webp",
+      image: vitz,
       name: "Toyota Vitz 2013",
       price: " 3150000",
       category: "cars",

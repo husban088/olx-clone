@@ -1,7 +1,15 @@
+import cd70 from '../components/images/cd70.webp'
+import CB150F from '../components/images/cb.webp'
+import gr from '../components/images/gr.webp'
+import cd125 from '../components/images/cd125.webp'
+
+
+
+
 export const bikes = [
     {
       id: 9,
-      image: "https://images.olx.com.pk/thumbnails/462160790-240x180.webp",
+      image: cd70,
       name: "Honda cd 70",
       price: "118000",
       category: "bikes",
@@ -10,7 +18,7 @@ export const bikes = [
     },
     {
       id: 10,
-      image: "https://images.olx.com.pk/thumbnails/463758173-800x600.webp",
+      image: CB150F,
       name: "Kawasaki Ninja Zx3r Original Japanese bike",
       price: "550000",
       category: "bikes",
@@ -19,7 +27,7 @@ export const bikes = [
     },
     {
       id: 11,
-      image: "https://images.olx.com.pk/thumbnails/460539546-240x180.webp",
+      image: gr,
       name: "HONDA CB150F (2020)",
       price: " 325000",
       category: "bikes",
@@ -28,7 +36,7 @@ export const bikes = [
     },
     {
       id: 12,
-      image: "https://images.olx.com.pk/thumbnails/464564833-240x180.webp",
+      image: cd125,
       name: "Honda CG 125",
       price: " 135000",
       category: "bikes",

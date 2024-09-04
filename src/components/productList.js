@@ -1,9 +1,14 @@
-  export const items = 
+import s22mob from '../components/images/s22mob.webp'
+import ip14 from '../components/images/ip14.webp'
+import y17 from '../components/images/y17mob.webp'
+import xiamo from '../components/images/xiamomob.webp'
+
+export const items = 
   
   [
     {
       id: 1,
-      image: "https://images.olx.com.pk/thumbnails/463421370-800x600.webp",
+      image: s22mob,
       name: "Samsung s22 ultra",
       price: "145000",
       category: "mobiles",
@@ -12,7 +17,7 @@
     },
     {
       id: 2,
-      image: "https://images.olx.com.pk/thumbnails/454895760-800x600.webp",
+      image: ip14,
       name: "Apple iPhone 14 Pro Max",
       price: "370000",
       category: "mobiles",
@@ -21,7 +26,7 @@
     },
     {
       id: 3,
-      image: "https://images.olx.com.pk/thumbnails/463771602-800x600.webp",
+      image: y17,
       name: "Vivo Y17 (8gb-256gb) 5000mah",
       price: "19500",
       category: "mobiles",
@@ -30,7 +35,7 @@
     },
     {
       id: 4,
-      image: "https://images.olx.com.pk/thumbnails/451237166-800x600.webp",
+      image: xiamo,
       name: "XIAOMI REDMI A3 BOX PACK",
       price: "18800",
       category: "mobiles",
